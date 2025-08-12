@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Đăng nhập",
+    "link": "https://www.youtube.com/watch?v=Mu54mQnBbnY",
+    "description": "Truy cập hệ thống bằng tài khoản giảng viên được cấp."
+  },
+  {
+    "title": "Đổi mật khẩu",
+    "link": "https://www.youtube.com/watch?v=Rdj-4VN9kRo",
+    "description": "Thay đổi mật khẩu sau khi đăng nhập lần đầu."
+  },
+  {
+    "title": "Quên mật khẩu",
+    "link": "https://www.youtube.com/watch?v=EVJpqenc7nY",
+    "description": "Khôi phục mật khẩu qua email đã đăng ký."
+  },
+  {
+    "title": "Cập nhật thông tin cá nhân",
+    "link": "https://www.youtube.com/watch?v=BfA-txOCLQM",
+    "description": "Sửa thông tin cá nhân như họ tên, email, ảnh đại diện."
+  },
+  {
+    "title": "Lựa chọn môn học",
+    "link": "https://www.youtube.com/watch?v=RbL_UTF8Gd4",
+    "description": "Chọn môn học/lớp học đang giảng dạy để thao tác."
+  },
+  {
+    "title": "Nộp bài tập",
+    "link": "https://www.youtube.com/watch?v=8bbwGMPMb5I",
+    "description": "Nộp thử bài như sinh viên để kiểm tra hệ thống."
+  },
+  {
+    "title": "Diễn đàn trao đổi",
+    "link": "https://www.youtube.com/watch?v=hg_5KIuz7bw",
+    "description": "Thảo luận về bài tập cùng sinh viên, quản lý bình luận."
+  },
+  {
+    "title": "Xem trạng thái giải bài",
+    "link": "https://www.youtube.com/watch?v=jB1XfEbPmfQ",
+    "description": "Theo dõi lời giải và kết quả bài làm của sinh viên."
+  },
+  {
+    "title": "Xem bảng xếp hạng",
+    "link": "https://www.youtube.com/watch?v=Yz7DOF5bZpc",
+    "description": "Xem và xuất bảng xếp hạng của lớp theo kết quả bài tập."
+  },
+  {
+    "title": "Quản lý lớp học",
+    "link": "https://www.youtube.com/watch?v=n8e8A1lQVS8",
+    "description": "Xem danh sách sinh viên, phân quyền, truy cập thông tin sinh viên."
+  },
+  {
+    "title": "Xem kết quả luyện tập của sinh viên",
+    "link": "https://www.youtube.com/watch?v=TofWrIdQqYY",
+    "description": "Xem chi tiết điểm, tiến độ học tập theo từng môn học."
+  },
+  {
+    "title": "Quản lý bài tập",
+    "link": "https://www.youtube.com/watch?v=GqQvAPhQZLU",
+    "description": "Thêm/sửa/xóa bài tập, quản lý test case, cấu hình công khai/riêng tư."
+  },
+  {
+    "title": "Tạo ca thực hành/thi",
+    "link": "https://www.youtube.com/watch?v=yNH_dhwD0wM",
+    "description": "Tạo, cấu hình thời gian và hình thức ca thực hành hoặc ca thi."
+  },
+  {
+    "title": "Gán bài tập cho ca thực hành/thi",
+    "link": "https://www.youtube.com/watch?v=_Q1fHUg2o5Y",
+    "description": "Chọn bài tập cho ca thi, cấu hình nhiều đề thi, nộp bài theo kiểu ICPC."
+  },
+  {
+    "title": "Xuất kết quả thi",
+    "link": "https://www.youtube.com/watch?v=pPzG1wx6LCA",
+    "description": "Tải xuống kết quả bài làm dưới dạng file Excel."
+  },
+  {
+    "title": "Phát hiện sao chép mã nguồn",
+    "link": "https://www.youtube.com/watch?v=5sobVP74S5Q",
+    "description": "Tự động phát hiện bài làm giống nhau, hiển thị so sánh, xử lý vi phạm."
+  }
+]
