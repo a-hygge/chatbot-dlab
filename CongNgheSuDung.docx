@@ -1,0 +1,20 @@
+CÔNG NGHỆ SỬ DỤNG
+
+1. Ngôn ngữ lập trình
+- Python: Được sử dụng để xây dựng backend, xử lý logic hội thoại, tích hợp các thư viện AI và xử lý ngôn ngữ tự nhiên.
+- JavaScript: Sử dụng cho phần mở rộng trình duyệt, giao diện người dùng và các tương tác phía client.
+
+2. Framework và Thư viện
+- Flask: Framework web nhẹ, dùng để xây dựng API backend, phục vụ giao tiếp giữa chatbot và các thành phần khác.
+- Requests: Thư viện Python hỗ trợ gửi HTTP request, dùng để kết nối với các API bên ngoài.
+- json: Thư viện chuẩn của Python để xử lý dữ liệu JSON.
+- Các thư viện AI/NLP: Có thể sử dụng các thư viện như transformers, spaCy, hoặc NLTK để xử lý ngôn ngữ tự nhiên, phân tích và sinh câu trả lời.
+
+3. Cơ sở dữ liệu
+- File JSON: Dữ liệu như playlist video được lưu trữ dưới dạng file JSON, thuận tiện cho việc đọc/ghi và mở rộng.
+- (Tùy chọn): Có thể sử dụng SQLite hoặc các hệ quản trị cơ sở dữ liệu khác để lưu trữ lịch sử hội thoại, thông tin người dùng, v.v.
+
+4. Phần mở rộng trình duyệt (Browser Extension)
+- JavaScript, HTML, CSS: Xây dựng extension, cho phép tích hợp chatbot vào trình duyệt, giao tiếp với backend thông qua API.
+- Manifest v3: Định nghĩa cấu hình extension, quyền truy cập, các script chạy nền (background.js), script chèn vào trang web (injector.js), và giao diện (style.css, icon.png).
+

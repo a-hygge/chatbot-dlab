@@ -1,0 +1,43 @@
+Dưới đây là bản viết lại mục 3.1 "Các công nghệ sử dụng cho dự án chatbot CodePTIT" theo phong cách trình bày, diễn giải và chi tiết như mẫu bạn cung cấp:
+
+---
+
+### 3.1. Các công nghệ sử dụng cho dự án chatbot CodePTIT
+
+Hệ thống chatbot CodePTIT được xây dựng dựa trên mô hình Client - Server, trong đó phần xử lý chính sử dụng ngôn ngữ Python, kết hợp với các thư viện và công nghệ hiện đại nhằm đáp ứng nhu cầu hỗ trợ giảng viên trong quá trình sử dụng hệ thống. Cụ thể:
+
+#### 3.1.1. Python
+
+Python là ngôn ngữ lập trình bậc cao, mã nguồn mở, nổi bật với cú pháp rõ ràng, dễ đọc, dễ học và cộng đồng phát triển mạnh mẽ. Python được sử dụng để xây dựng toàn bộ logic xử lý của chatbot, bao gồm xử lý ngôn ngữ tự nhiên, giao tiếp API và quản lý dữ liệu hội thoại. Việc lựa chọn Python giúp quá trình phát triển nhanh chóng, dễ bảo trì và dễ mở rộng. Trong dự án, Python được sử dụng chủ yếu trong các file chatbot.py và app.py.
+
+#### 3.1.2. Thư viện xử lý ngôn ngữ tự nhiên (NLTK, spaCy, transformers)
+
+Các thư viện như NLTK, spaCy và transformers đóng vai trò quan trọng trong việc xử lý ngôn ngữ tự nhiên (NLP) cho chatbot. NLTK và spaCy hỗ trợ tiền xử lý văn bản, tách từ, gán nhãn từ loại, trích xuất thực thể, giúp chatbot hiểu được nội dung câu hỏi của giảng viên. Thư viện transformers (ví dụ: HuggingFace Transformers) cho phép tích hợp các mô hình ngôn ngữ lớn như BERT, GPT, giúp chatbot nâng cao khả năng hiểu ngữ cảnh và sinh phản hồi tự nhiên, chính xác. Các thư viện này được sử dụng trong file chatbot.py.
+
+#### 3.1.3. Mô hình học sâu (Deep Learning)
+
+Dự án sử dụng các mô hình học sâu đã được huấn luyện sẵn (pretrained) như BERT, GPT để tăng khả năng hiểu ngữ cảnh và sinh phản hồi thông minh cho chatbot. Việc tích hợp các mô hình này giúp chatbot có thể trả lời các câu hỏi phức tạp, mang tính ngữ cảnh cao. Các mô hình này được sử dụng thông qua thư viện transformers trong file chatbot.py.
+
+#### 3.1.4. Flask
+
+Flask là một framework web nhẹ của Python, được sử dụng để xây dựng API RESTful, giúp chatbot giao tiếp với giao diện người dùng hoặc các hệ thống khác. Flask hỗ trợ phát triển nhanh, dễ dàng mở rộng và tích hợp với các thành phần khác của hệ thống. Trong dự án, Flask được sử dụng trong file app.py.
+
+#### 3.1.5. JSON
+
+JSON là định dạng dữ liệu phổ biến, được sử dụng để lưu trữ dữ liệu hội thoại, cấu hình chatbot và danh sách video hỗ trợ giảng viên. Việc sử dụng JSON giúp việc trao đổi dữ liệu giữa các thành phần của hệ thống trở nên đơn giản, hiệu quả và dễ dàng mở rộng. Trong dự án, JSON được sử dụng trong file playlist_videos.json và các đoạn mã trong chatbot.py, app.py.
+
+#### 3.1.6. JavaScript, HTML, CSS
+
+Các công nghệ web như JavaScript, HTML, CSS được sử dụng để xây dựng giao diện người dùng cho chatbot, giúp giảng viên dễ dàng tương tác trực tiếp trên trình duyệt. Đặc biệt, phần mở rộng (extension) được xây dựng với các file như `background.js`, `injector.js`, `style.css`, `manifest.json` trong thư mục extension, giúp tích hợp chatbot vào các nền tảng web một cách thuận tiện.
+
+#### 3.1.7. Các công cụ hỗ trợ phát triển khác
+
+- **Git**: Quản lý mã nguồn dự án, hỗ trợ làm việc nhóm và kiểm soát phiên bản.
+- **VS Code**: Môi trường phát triển tích hợp, hỗ trợ kiểm thử, gỡ lỗi và quản lý dự án hiệu quả.
+- **venv/conda**: Quản lý môi trường ảo cho Python, đảm bảo cài đặt đúng các thư viện cần thiết, tránh xung đột phiên bản.
+
+Việc sử dụng đồng bộ các công nghệ trên giúp hệ thống chatbot CodePTIT hoạt động ổn định, bảo mật, dễ mở rộng và đáp ứng tốt nhu cầu hỗ trợ giảng viên trong quá trình sử dụng hệ thống.
+
+---
+
+Bạn có muốn tôi chèn trực tiếp nội dung này vào file docx hiện tại không?
